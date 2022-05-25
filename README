@@ -5,6 +5,32 @@ Configura proyecto recíén creado de rails para utilizar BootStrap
 Agradecimientos a Grupo G2 desafio Latam por el manual cortapalos.
 (Ange,Jose,Juan,Oscar,Ivan... y como nos dice el profe "al resto" tambien.)
 
+Modo de USO:
+
+copiar archivo addBootstrap.rb a la raiz del proyecto, ojalá un proyecto recien creado.
+
+ejecutar en consola desde la raiz del proyecto con:
+
+ruby addBootstrap.rb
+
+al terminar ejecutar en consola los siguientes comando:
+
+bundle install
+
+y luego...
+
+rails assets:precompile
+
+recordar que hay que editar archivo /app/views/layouts/application.html.erb y en el body dejar como se muestra:
+
+  <body>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </body>
+
+luego use bootstrap a su antojo!
+
 Saludos
 
 GReenDuck_cl
