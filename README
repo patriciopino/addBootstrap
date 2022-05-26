@@ -13,13 +13,9 @@ ejecutar en consola desde la raiz del proyecto con:
 
 ruby addBootstrap.rb
 
-al terminar ejecutar en consola los siguientes comando:
+al terminar ejecutar en consola el siguiente comando:
 
 bundle install
-
-y luego...
-
-rails assets:precompile
 
 recordar que hay que editar archivo /app/views/layouts/application.html.erb y en el body dejar como se muestra:
 
