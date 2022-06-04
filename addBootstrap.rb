@@ -15,6 +15,6 @@ File.open("./config/initializers/assets.rb","a") do | f | f.write("\nRails.appli
 
 puts "recuerda que debes ejecutar:"
 puts "  bundle install"
-puts "ademas de incluir los <DIV> de Bootstrap"
+puts "ademas de incluir los <DIV class="container"> de Bootstrap"
 puts "en '/app/views/layouts/application.html.erb'"
 puts "\nSaludos\nGReenDucK_cl"
